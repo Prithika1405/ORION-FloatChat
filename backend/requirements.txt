@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+copernicusmarine
+numpy
+pandas
+requests
