@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Copernicus / local credentials
+.copernicusmarine/
+copernicus_credentials*
+*credentials*
+*secret*
+*.key
+*.pem
+
+# Node
+node_modules/
+dist/
+build/
+.vite/
+
+# Local data / caches
+*.nc
+*.nc4
+*.h5
+*.hdf5
+*.parquet
+*.csv
+cache/
+data/
+copernicus_data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+float.json
